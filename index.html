@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>CMMC Compliance for Defense Contractors | FedContractor.com</title>
+    <meta name="title" content="CMMC Compliance for Defense Contractors | FedContractor.com">
+    <meta name="description" content="Get CMMC certified and protect your DoD contracts. Expert compliance services for small defense contractors, aviation suppliers, and medical suppliers in the DIB. Free consultation available.">
+    <meta name="keywords" content="CMMC compliance, CMMC certification, defense contractors, DIB compliance, CMMC Level 1, CMMC Level 2, CMMC Level 3, aviation suppliers, medical device manufacturers, defense industrial base, C3PAO assessment, NIST 800-171, federal contractors">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fedcontractor.com/">
+    <meta property="og:title" content="CMMC Compliance for Defense Contractors | Free Consultation">
+    <meta property="og:description" content="Don't lose your DoD contracts. Get CMMC certified with expert guidance tailored for small defense contractors. Schedule your free consultation today.">
+    <meta property="og:image" content="https://symposit.com/wp-content/uploads/2022/10/logo1.svg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://fedcontractor.com/">
+    <meta property="twitter:title" content="CMMC Compliance for Defense Contractors | Free Consultation">
+    <meta property="twitter:description" content="Don't lose your DoD contracts. Get CMMC certified with expert guidance tailored for small defense contractors. Schedule your free consultation today.">
+    <meta property="twitter:image" content="https://symposit.com/wp-content/uploads/2022/10/logo1.svg">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fedcontractor.com/">
+
+    <!-- Schema.org Structured Data for SEO and AI -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "FedContractor.com",
+      "description": "CMMC compliance and cybersecurity certification services for small defense industrial base contractors",
+      "url": "https://fedcontractor.com",
+      "logo": "https://symposit.com/wp-content/uploads/2022/10/logo1.svg",
+      "image": "https://symposit.com/wp-content/uploads/2022/10/logo1.svg",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Washington DC Metro Area"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "serviceType": [
+        "CMMC Compliance Consulting",
+        "Cybersecurity Assessment",
+        "NIST 800-171 Implementation",
+        "Defense Contractor Certification"
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Defense Industrial Base Contractors"
+      },
+      "offers": {
+        "@type": "Offer",
+        "name": "Free CMMC Consultation",
+        "description": "Complimentary consultation to determine your CMMC level requirements and compliance needs",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is CMMC compliance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CMMC (Cybersecurity Maturity Model Certification) is a DoD requirement for defense contractors handling Federal Contract Information (FCI) or Controlled Unclassified Information (CUI). It involves three levels of certification with 15 to 110+ security controls."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which CMMC level do I need?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Level 1 is for contractors handling FCI (62% of contractors). Level 2 is for CUI handling (37% of contractors) requiring 110 NIST SP 800-171 controls. Level 3 is for high-value CUI programs (1% of contractors) with advanced security requirements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When is CMMC compliance required?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The DoD began requiring CMMC certification in November 2025 with Phase 1 implementation. Phase 2 begins November 2026. Without proper compliance, contractors cannot win new DoD contracts or maintain existing ones."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does CMMC certification take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The timeline varies by CMMC level and your current security posture. Our 4-step process includes free consultation, gap analysis, implementation support, and assessment guidance. Most small contractors can achieve Level 1 or Level 2 compliance within 3-6 months with proper support."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "FedContractor.com",
+      "url": "https://fedcontractor.com",
+      "logo": "https://symposit.com/wp-content/uploads/2022/10/logo1.svg",
+      "description": "Specialized CMMC compliance solutions for small defense industrial base contractors including aviation suppliers, medical device manufacturers, and precision manufacturing companies",
+      "address": {
+        "@type": "PostalAddress",
+        "addressRegion": "Washington DC Metro Area"
+      },
+      "sameAs": [],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Service",
+        "areaServed": "US",
+        "availableLanguage": "English"
+      }
+    }
+    </script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #1e293b;
+        }
+
+        .header {
+            background: white;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo {
+            height: 50px;
+            width: auto;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+            color: white;
+            padding: 80px 20px 60px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            font-weight: 700;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .hero .subtitle {
+            font-size: 1.4em;
+            margin-bottom: 15px;
+            opacity: 0.95;
+        }
+
+        .hero .deadline {
+            font-size: 1.1em;
+            background: rgba(59, 130, 246, 0.3);
+            display: inline-block;
+            padding: 12px 30px;
+            border-radius: 5px;
+            margin: 20px 0 30px;
+            font-weight: 600;
+            border: 2px solid rgba(255, 255, 255, 0.5);
+        }
+
+        .cta-button {
+            background: #1e40af;
+            color: white;
+            padding: 18px 50px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .cta-button:hover {
+            background: #1e3a8a;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+
+        .about-section {
+            background: white;
+            padding: 60px 20px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .about-section h2 {
+            font-size: 2.2em;
+            color: #1e40af;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .about-content {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .about-content p {
+            font-size: 1.15em;
+            color: #475569;
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+
+        .about-highlights {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .highlight-item {
+            background: #f8fafc;
+            padding: 25px;
+            border-radius: 10px;
+            border: 2px solid #dbeafe;
+        }
+
+        .highlight-item .highlight-icon {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .highlight-item h3 {
+            color: #1e40af;
+            font-size: 1.2em;
+            margin-bottom: 8px;
+        }
+
+        .highlight-item p {
+            color: #64748b;
+            font-size: 1em;
+            margin: 0;
+        }
+
+        .industries-section {
+            background: #f8fafc;
+            padding: 50px 20px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .industries-section h2 {
+            font-size: 1.8em;
+            color: #1e40af;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .industries-subtitle {
+            text-align: center;
+            color: #475569;
+            font-size: 1.1em;
+            margin-bottom: 35px;
+        }
+
+        .industries-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 25px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .industry-item {
+            text-align: center;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .industry-item:hover {
+            background: #eff6ff;
+            border-color: #3b82f6;
+            transform: translateY(-3px);
+        }
+
+        .industry-icon {
+            font-size: 3.5em;
+            margin-bottom: 10px;
+        }
+
+        .industry-item h3 {
+            color: #1e40af;
+            font-size: 1.1em;
+            font-weight: 600;
+        }
+
+        .urgency-section {
+            background: #dbeafe;
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 3px solid #3b82f6;
+        }
+
+        .urgency-section h2 {
+            color: #1e40af;
+            font-size: 2em;
+            margin-bottom: 15px;
+        }
+
+        .urgency-section p {
+            font-size: 1.2em;
+            color: #1e3a8a;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .problem-section {
+            padding: 60px 20px;
+            background: white;
+        }
+
+        .problem-section h2 {
+            font-size: 2.5em;
+            color: #1e40af;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .problem-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .problem-card {
+            background: #f8fafc;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border-left: 4px solid #3b82f6;
+        }
+
+        .problem-card h3 {
+            color: #1e40af;
+            font-size: 1.3em;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+        }
+
+        .problem-card h3::before {
+            content: "⚠️";
+            margin-right: 10px;
+            font-size: 1.2em;
+        }
+
+        .problem-card p {
+            color: #475569;
+            font-size: 1.05em;
+        }
+
+        .levels-section {
+            padding: 60px 20px;
+            background: #f8fafc;
+        }
+
+        .levels-section h2 {
+            font-size: 2.5em;
+            color: #1e40af;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .levels-intro {
+            text-align: center;
+            font-size: 1.15em;
+            color: #475569;
+            max-width: 800px;
+            margin: 0 auto 40px;
+        }
+
+        .levels-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .level-card {
+            background: linear-gradient(to bottom, #ffffff 0%, #f8fafc 100%);
+            padding: 35px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border-top: 5px solid #3b82f6;
+        }
+
+        .level-card h3 {
+            color: #1e40af;
+            font-size: 1.6em;
+            margin-bottom: 15px;
+        }
+
+        .level-card .level-type {
+            background: #dbeafe;
+            color: #1e40af;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            display: inline-block;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .level-card ul {
+            list-style: none;
+            margin: 15px 0;
+        }
+
+        .level-card ul li {
+            padding: 8px 0 8px 28px;
+            position: relative;
+            color: #475569;
+        }
+
+        .level-card ul li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #3b82f6;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .level-card .percentage {
+            background: #dbeafe;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 15px;
+            font-weight: 600;
+            color: #1e40af;
+            text-align: center;
+        }
+
+        .solution-section {
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+            color: white;
+            text-align: center;
+        }
+
+        .solution-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            max-width: 1100px;
+            margin: 40px auto;
+        }
+
+        .benefit-card {
+            background: rgba(255,255,255,0.15);
+            padding: 30px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.25);
+        }
+
+        .benefit-card .icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+        }
+
+        .benefit-card h3 {
+            font-size: 1.4em;
+            margin-bottom: 12px;
+        }
+
+        .benefit-card p {
+            font-size: 1.05em;
+            opacity: 0.95;
+        }
+
+        .process-section {
+            padding: 60px 20px;
+            background: white;
+        }
+
+        .process-section h2 {
+            font-size: 2.5em;
+            color: #1e40af;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .process-steps {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .step {
+            display: flex;
+            margin-bottom: 30px;
+            background: #f8fafc;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            align-items: center;
+        }
+
+        .step-number {
+            background: #3b82f6;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8em;
+            font-weight: bold;
+            flex-shrink: 0;
+            margin-right: 25px;
+        }
+
+        .step-content h3 {
+            color: #1e40af;
+            font-size: 1.4em;
+            margin-bottom: 8px;
+        }
+
+        .step-content p {
+            color: #475569;
+            font-size: 1.05em;
+        }
+
+        .final-cta {
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+            color: white;
+            text-align: center;
+        }
+
+        .final-cta h2 {
+            font-size: 2.8em;
+            margin-bottom: 20px;
+        }
+
+        .final-cta p {
+            font-size: 1.3em;
+            margin-bottom: 35px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .final-cta .cta-button {
+            background: white;
+            color: #1e40af;
+            font-size: 1.3em;
+            padding: 20px 60px;
+        }
+
+        .final-cta .cta-button:hover {
+            background: #f1f5f9;
+            color: #1e3a8a;
+        }
+
+        .trust-section {
+            padding: 40px 20px;
+            background: #f8fafc;
+            text-align: center;
+        }
+
+        .trust-section p {
+            color: #64748b;
+            font-size: 1.1em;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        footer {
+            background: #1e293b;
+            color: #94a3b8;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        footer .footer-logo {
+            height: 40px;
+            width: auto;
+            margin-bottom: 15px;
+            opacity: 0.8;
+        }
+
+        @media (max-width: 768px) {
+            .logo {
+                height: 40px;
+            }
+
+            .hero h1 {
+                font-size: 2em;
+            }
+
+            .hero .subtitle {
+                font-size: 1.1em;
+            }
+
+            .about-highlights {
+                grid-template-columns: 1fr;
+            }
+
+            .industries-grid {
+                grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+                gap: 15px;
+            }
+
+            .industry-icon {
+                font-size: 2.5em;
+            }
+
+            .problem-section h2,
+            .levels-section h2,
+            .solution-section h2,
+            .process-section h2 {
+                font-size: 1.8em;
+            }
+
+            .step {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .step-number {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+
+            .final-cta h2 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header with Logo -->
+    <header class="header">
+        <div class="container">
+            <img src="https://symposit.com/wp-content/uploads/2022/10/logo1.svg" alt="FedContractor.com - CMMC Compliance Solutions" class="logo">
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>CMMC Compliance is Now Mandatory for Defense Contractors</h1>
+            <p class="subtitle">Don't lose your DoD contracts. Get certified and stay compliant.</p>
+            <div class="deadline">⏰ Phase 1 is underway – Phase 2 begins November 2026</div>
+            <a href="https://forms.gle/jmjX5iii8wm3eFim8" target="_blank" class="cta-button" aria-label="Schedule your free CMMC consultation">Get Your Free Consultation</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <h2>Who We Are</h2>
+            <div class="about-content">
+                <p><strong>FedContractor.com is powered by Symposit</strong>, a cybersecurity and IT consulting firm that is itself part of the Defense Industrial Base. Based in the Washington DC metro area, we understand the unique challenges facing small defense contractors because we live them every day.</p>
+                <p>We're not just consultants—we're your peers in the DIB. Our team has firsthand experience navigating CMMC requirements, working with DoD contracts, and maintaining compliance in real-world operational environments.</p>
+            </div>
+            <div class="about-highlights">
+                <div class="highlight-item">
+                    <div class="highlight-icon">🏛️</div>
+                    <h3>DC Metro Based</h3>
+                    <p>Located in the heart of the federal contracting community</p>
+                </div>
+                <div class="highlight-item">
+                    <div class="highlight-icon">🛡️</div>
+                    <h3>DIB Member</h3>
+                    <p>We're part of the Defense Industrial Base ourselves</p>
+                </div>
+                <div class="highlight-item">
+                    <div class="highlight-icon">🎯</div>
+                    <h3>Practical Experience</h3>
+                    <p>Real-world compliance expertise, not just theory</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries We Serve Section -->
+    <section class="industries-section">
+        <div class="container">
+            <h2>Small DIB Contractors We Serve</h2>
+            <p class="industries-subtitle">Specialized CMMC compliance for small businesses across the defense supply chain</p>
+            <div class="industries-grid">
+                <article class="industry-item">
+                    <div class="industry-icon" aria-hidden="true">✈️</div>
+                    <h3>Aviation Parts<br>& Suppliers</h3>
+                </article>
+                <article class="industry-item">
+                    <div class="industry-icon" aria-hidden="true">🏥</div>
+                    <h3>Medical Device<br>Manufacturers</h3>
+                </article>
+                <article class="industry-item">
+                    <div class="industry-icon" aria-hidden="true">⚙️</div>
+                    <h3>Precision<br>Manufacturing</h3>
+                </article>
+                <article class="industry-item">
+                    <div class="industry-icon" aria-hidden="true">🔧</div>
+                    <h3>Machine Shops<br>& Fabrication</h3>
+                </article>
+                <article class="industry-item">
+                    <div class="industry-icon" aria-hidden="true">📡</div>
+                    <h3>Electronics &<br>Communications</h3>
+                </article>
+                <article class="industry-item">
+                    <div class="industry-icon" aria-hidden="true">🧪</div>
+                    <h3>Testing &<br>Research Labs</h3>
+                </article>
+                <article class="industry-item">
+                    <div class="industry-icon" aria-hidden="true">🚢</div>
+                    <h3>Maritime &<br>Ship Components</h3>
+                </article>
+                <article class="industry-item">
+                    <div class="industry-icon" aria-hidden="true">🔩</div>
+                    <h3>Hardware &<br>Fastener Suppliers</h3>
+                </article>
+                <article class="industry-item">
+                    <div class="industry-icon" aria-hidden="true">💊</div>
+                    <h3>Pharmaceutical<br>Suppliers</h3>
+                </article>
+                <article class="industry-item">
+                    <div class="industry-icon" aria-hidden="true">🏗️</div>
+                    <h3>Engineering<br>Services</h3>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Urgency Section -->
+    <section class="urgency-section">
+        <div class="container">
+            <h2>🚨 Your Contracts Are at Risk</h2>
+            <p>The DoD began requiring CMMC certification in November 2025. If you handle Federal Contract Information (FCI) or Controlled Unclassified Information (CUI), you cannot win new contracts—or keep existing ones—without proper CMMC compliance.</p>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="problem-section">
+        <div class="container">
+            <h2>The Challenges Small DIB Contractors Face</h2>
+            <div class="problem-grid">
+                <article class="problem-card">
+                    <h3>Complex Requirements</h3>
+                    <p>CMMC involves 15 to 110+ security controls depending on your level. Without cybersecurity expertise, understanding what's required is overwhelming.</p>
+                </article>
+                <article class="problem-card">
+                    <h3>Limited IT Resources</h3>
+                    <p>As a small contractor, you focus on production and delivery—not IT security. Most small DIB suppliers don't have dedicated cybersecurity teams.</p>
+                </article>
+                <article class="problem-card">
+                    <h3>Tight Deadlines</h3>
+                    <p>With phased implementation underway, you need to act now. Falling behind means losing contracts to compliant competitors.</p>
+                </article>
+                <article class="problem-card">
+                    <h3>Budget Constraints</h3>
+                    <p>Compliance costs can strain small business budgets. You need affordable solutions that don't compromise on meeting DoD requirements.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- CMMC Levels Section -->
+    <section class="levels-section">
+        <div class="container">
+            <h2>Understanding CMMC Levels</h2>
+            <p class="levels-intro">The DoD assigns CMMC levels based on the type of information you handle. Here's what you need to know:</p>
+            <div class="levels-grid">
+                <article class="level-card">
+                    <h3>CMMC Level 1</h3>
+                    <span class="level-type">Self-Assessment</span>
+                    <ul>
+                        <li>For contractors handling Federal Contract Information (FCI)</li>
+                        <li>15 basic security requirements</li>
+                        <li>Annual self-assessment required</li>
+                        <li>Results reported in SPRS</li>
+                    </ul>
+                    <div class="percentage">62% of contractors need Level 1</div>
+                </article>
+                <article class="level-card">
+                    <h3>CMMC Level 2</h3>
+                    <span class="level-type">Self or C3PAO Assessment</span>
+                    <ul>
+                        <li>For contractors handling Controlled Unclassified Information (CUI)</li>
+                        <li>110 NIST SP 800-171 controls</li>
+                        <li>Self-assessment or third-party assessment</li>
+                        <li>Triennial certification required</li>
+                    </ul>
+                    <div class="percentage">~37% of contractors need Level 2</div>
+                </article>
+                <article class="level-card">
+                    <h3>CMMC Level 3</h3>
+                    <span class="level-type">DIBCAC Assessment</span>
+                    <ul>
+                        <li>For high-value CUI and critical programs</li>
+                        <li>Level 2 + 24 advanced NIST SP 800-172 controls</li>
+                        <li>Assessment by DIBCAC only</li>
+                        <li>Highest security standards</li>
+                    </ul>
+                    <div class="percentage">~1% of contractors need Level 3</div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="solution-section">
+        <div class="container">
+            <h2>We Make CMMC Compliance Simple</h2>
+            <p style="font-size: 1.2em; max-width: 800px; margin: 0 auto 20px;">FedContractor.com specializes in helping small defense industrial base contractors achieve and maintain CMMC compliance—without the headaches.</p>
+
+            <div class="benefits-grid">
+                <article class="benefit-card">
+                    <div class="icon" aria-hidden="true">🎯</div>
+                    <h3>Expert Guidance</h3>
+                    <p>Our cybersecurity experts guide you through every requirement, tailored to your specific CMMC level.</p>
+                </article>
+                <article class="benefit-card">
+                    <div class="icon" aria-hidden="true">⚡</div>
+                    <h3>Fast Track Assessment</h3>
+                    <p>We streamline the assessment process so you can get certified quickly and win contracts.</p>
+                </article>
+                <article class="benefit-card">
+                    <div class="icon" aria-hidden="true">💰</div>
+                    <h3>Cost-Effective</h3>
+                    <p>Affordable solutions designed for small businesses—no enterprise-level pricing.</p>
+                </article>
+                <article class="benefit-card">
+                    <div class="icon" aria-hidden="true">🛡️</div>
+                    <h3>Ongoing Support</h3>
+                    <p>CMMC isn't one-and-done. We provide continuous compliance monitoring and support.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process-section">
+        <div class="container">
+            <h2>Our Simple 4-Step Process</h2>
+            <div class="process-steps">
+                <article class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Free Consultation</h3>
+                        <p>We assess your current security posture and determine which CMMC level you need based on your contracts and information types.</p>
+                    </div>
+                </article>
+                <article class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Gap Analysis</h3>
+                        <p>We identify exactly what controls you're missing and create a clear roadmap to compliance with prioritized action items.</p>
+                    </div>
+                </article>
+                <article class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Implementation Support</h3>
+                        <p>We help you implement the necessary security controls, policies, and procedures to meet all CMMC requirements.</p>
+                    </div>
+                </article>
+                <article class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Assessment & Certification</h3>
+                        <p>We guide you through the assessment process and help you achieve your required CMMC certification level.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Section -->
+    <section class="trust-section">
+        <div class="container">
+            <p><strong>Trusted by small manufacturers, suppliers, and contractors across the Defense Industrial Base.</strong><br>
+            Over 70% of the defense supply chain consists of small businesses like yours. We understand your unique challenges and provide practical, results-driven solutions.</p>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="final-cta" id="contact">
+        <div class="container">
+            <h2>Don't Wait Until It's Too Late</h2>
+            <p>Every day without CMMC compliance is a day you risk losing contracts. Start your journey to certification today.</p>
+            <a href="https://forms.gle/jmjX5iii8wm3eFim8" target="_blank" class="cta-button" aria-label="Request your free CMMC consultation">Request Your Free Consultation</a>
+            <p style="margin-top: 30px; font-size: 1em; opacity: 0.9;">✓ No obligation  ✓ Fast response  ✓ Expert guidance</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <img src="https://symposit.com/wp-content/uploads/2022/10/logo1.svg" alt="FedContractor.com Logo" class="footer-logo">
+            <p><strong>FedContractor.com</strong></p>
+            <p>Powered by Symposit | Based in Washington DC Metro</p>
+            <p>CMMC Compliance Solutions for the Defense Industrial Base</p>
+            <p style="margin-top: 15px; font-size: 0.9em;">© 2026 FedContractor.com. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
